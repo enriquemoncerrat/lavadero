@@ -1,5 +1,8 @@
 package com.example.lavadero.lavadero.model;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+@EntityScan
 public class Usuario {
      private String nombre;
      private String apellido;
